@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    animation-name:animatsiyaBanana;
+    animation-iteration-count: infinite;
+    animation-duration: 3s; 
+    animation-direction: alternate;
+}
+
+@keyframes animatsiyaBanana {
+
+    0%,
+    100% {
+        transform: translateY(100px);
+    }
+    50% {
+        transform: translateY(-100px);
+    }
+
+}
